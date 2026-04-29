@@ -32,7 +32,5 @@ class day2 {
 
         System.out.println((a>b) ? "a is greater" : "b is greater");
 
-         
-    
     }
 }
