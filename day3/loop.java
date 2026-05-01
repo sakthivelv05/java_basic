@@ -16,3 +16,23 @@ class loop {
         
     }
 }
+
+public class EvenBreak {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        while(true) {
+
+            if(i > 10) {
+                break;   
+            }
+
+            if(i % 2 == 0) {
+                System.out.println(i);
+            }
+
+            i++;
+        }
+    }
+}
